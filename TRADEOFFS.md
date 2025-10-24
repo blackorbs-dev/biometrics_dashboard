@@ -20,7 +20,7 @@ Focused delivery required simplifying certain parts. Below are key technical tra
   LTTB used to balance accuracy and performance. Small spikes may be lost, but rendering remains smooth.
 
 - **Mock Data Expansion**  
-  Asset files were populated with 12k+ synthetic entries to stress-test performance.
+  Asset files were populated with up to 90 synthetic entries to simulate aggregated per day data points.
 
 - **Testing Focus**  
   Prioritized logical state and interactions, not pixel rendering.
