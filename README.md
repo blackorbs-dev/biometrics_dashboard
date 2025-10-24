@@ -75,3 +75,9 @@ UI canvas rendering is not pixel-tested due to `fl_chart` limitations.
 
 ---
 
+## 🎥 Screen Recording (Demo)
+
+📁 **Watch here:**  
+[https://drive.google.com/file/d/1SAhb3G3Panw_z44EEMYUsr7mwoQfSHT4/view?usp=sharing](https://drive.google.com/file/d/1SAhb3G3Panw_z44EEMYUsr7mwoQfSHT4/view?usp=sharing)
+
+---
