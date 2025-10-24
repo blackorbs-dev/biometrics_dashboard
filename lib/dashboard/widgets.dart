@@ -74,7 +74,7 @@ class ChartCard extends ConsumerWidget {
       child: Stack(
         children: [
           Padding(
-            padding: const EdgeInsets.all(18),
+            padding: const EdgeInsets.symmetric(vertical: 18, horizontal: 24),
             child: Column(
               children: [
                 Row(
@@ -99,7 +99,6 @@ class ChartCard extends ConsumerWidget {
                     LineChartData(
                       lineTouchData: LineTouchData(
                           touchCallback: (FlTouchEvent event, LineTouchResponse? resp) {
-                            print('Touch callback called!!!');
                             if (!event.isInterestedForInteractions || resp == null) {
                               ref.read(dashboardStateProvider.notifier).clearHover();
                               return;
