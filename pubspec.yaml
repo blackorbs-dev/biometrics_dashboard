@@ -1,0 +1,26 @@
+name: biometrics_dashboard
+description: "A lightweight, interactive biometrics dashboard that visualizes multiple time-series datasets"
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.9.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  flutter_riverpod: ^3.0.3
+  fl_chart: ^1.1.1
+  intl: ^0.20.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+  test: ^1.26.2
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/

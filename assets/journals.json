@@ -1,0 +1,10 @@
+[
+  { "date": "2025-08-02", "mood": 2, "note": "Bad sleep, felt sluggish all day" },
+  { "date": "2025-08-12", "mood": 5, "note": "Great run in the morning!" },
+  { "date": "2025-08-20", "mood": 4, "note": "Solid workout, feeling strong" },
+  { "date": "2025-09-03", "mood": 5, "note": "PR on deadlift!" },
+  { "date": "2025-09-15", "mood": 3, "note": "Sore from yesterday" },
+  { "date": "2025-09-26", "mood": 4, "note": "Good energy today" },
+  { "date": "2025-10-04", "mood": 4, "note": "Morning yoga session" },
+  { "date": "2025-10-12", "mood": 5, "note": "Best sleep in weeks!" }
+]
