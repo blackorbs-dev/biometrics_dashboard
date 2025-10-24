@@ -32,12 +32,12 @@ This project demonstrates:
 
 ## ⚡ Performance
 
-| Optimization       | Purpose                                                                        |
-|--------------------|--------------------------------------------------------------------------------|
-| LTTB decimation    | Reduces 10k+ points to ~250–500 for smooth rendering                           |
-| Binary search      | Quickly find visible data range and tooltip index without scanning all points. |
-| Cached results     | Decimated results stored per range                                             |
-| Loop optimizations | Reduced allocations & micro overhead                                           |
+| Optimization       | Purpose                                                      |
+|--------------------|--------------------------------------------------------------|
+| LTTB decimation    | Reduces 10k+ points to ~250–500 for smooth rendering         |
+| Binary search      | Quickly find visible data range without scanning all points. |
+| Cached results     | Decimated results stored per range                           |
+| Loop optimizations | Reduced allocations & micro overhead                         |
 
 **Measured frame times:**
 - 7d: ~8 ms  
@@ -75,3 +75,9 @@ UI canvas rendering is not pixel-tested due to `fl_chart` limitations.
 
 ---
 
+## 🎥 Screen Recording (Demo)
+
+📁 **Watch here:**  
+[https://drive.google.com/file/d/1SAhb3G3Panw_z44EEMYUsr7mwoQfSHT4/view?usp=sharing](https://drive.google.com/file/d/1SAhb3G3Panw_z44EEMYUsr7mwoQfSHT4/view?usp=sharing)
+
+---
