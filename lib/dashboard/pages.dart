@@ -80,7 +80,7 @@ class DashboardBody extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      padding: const EdgeInsets.all(12.0),
+      padding: const EdgeInsetsGeometry.fromSTEB(18, 12, 18, 24),
       child: Column(children: [
         RangePicker(
             selected: range,
