@@ -32,12 +32,13 @@ This project demonstrates:
 
 ## ⚡ Performance
 
-| Optimization       | Purpose                                                      |
-|--------------------|--------------------------------------------------------------|
-| LTTB decimation    | Reduces 10k+ points to ~250–500 for smooth rendering         |
-| Binary search      | Quickly find visible data range without scanning all points. |
-| Cached results     | Decimated results stored per range                           |
-| Loop optimizations | Reduced allocations & micro overhead                         |
+| Optimization       | Purpose                                                        |
+|--------------------|----------------------------------------------------------------|
+| LTTB decimation    | Reduces 10k+ points to ~250–500 for smooth rendering           |
+| Isolates           | Offloads heavy computations (like decimation) from main thread |
+| Binary search      | Quickly find visible data range without scanning all points    |
+| Cached results     | Decimated results stored per range                             |
+| Loop optimizations | Reduced allocations & micro overhead                           |
 
 **Measured frame times:**
 - 7d: ~8 ms  
